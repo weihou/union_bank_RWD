@@ -26,6 +26,8 @@ h3 {
 }
 
 .bottom a.btn-more {
+	position: absolute;
+	bottom: 0;
 	font-size: 11px;
 }
 
@@ -133,6 +135,7 @@ ul.resource > li{
 
 .bottom {
 	margin-top: 30px;
+	margin-bottom: 20px;
 }
 
 .copyright p {
