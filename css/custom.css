@@ -1,0 +1,319 @@
+body {
+	font-family: Arial, Helvetica, sans-serif;
+}
+/*text*/
+h3 {
+	font-size: 25px;
+	font-weight: bold;
+}
+.featured h4.media-heading {
+	font-size: 24px;
+	font-weight: bold;
+}
+.featured .media-body {
+	font-size: 13px;
+}
+.featured a.learnMore  {
+	font-weight: bold;
+}
+
+.bottom h4.media-heading {
+	font-size: 16px;
+	font-weight: bold;
+}
+.bottom .media-body {
+	font-size: 11px;
+}
+
+.bottom a.btn-more {
+	font-size: 11px;
+}
+
+.resources h4.media-heading {
+	font-size: 16px;
+	font-weight: bold;
+}
+.resources .media-body {
+	font-size: 12px;
+}
+.resources a.learnMore  {
+	font-weight: bold;
+}
+.resources li a  {
+	font-size: 17px;
+	font-weight: bold;
+}
+.resources .dropdown-menu>li>a {
+	font-size: 14px;
+	font-weight: normal;
+}
+.footer .notes {
+	font-size: 9px;
+}
+
+.footer .bottomNav {
+	font-size: 16px;
+}
+
+/*border */
+.border-top {
+	padding-top: 15px;
+	border-top: 1px solid #dcddde;
+}
+.border-right {
+	border-right: 1px solid #dcddde;
+}
+
+ul.bottomNav li:not(:last-child) {
+	border-right: 1px solid #4d4d4f;
+}
+
+/*color*/
+.resources a, .featured a {
+	color: #434343;
+}
+a .glyphicon-play{
+	color: #ce0c03;
+}
+
+.article {
+	overflow: hidden;
+}
+span.icon-play {
+	background-image: url(../img/arrow.gif);
+	background-repeat: no-repeat;
+	width: 10px;
+	height: 11px;
+	display: inline-block;
+}
+#logo {
+  width: 250px;
+  height: 50px;
+  display: inline-block;
+  background-image: url(../img/Union_Bank_logo.png);
+  background-size: 70%;
+  background-repeat: no-repeat;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+.navbar-default {
+  background-color: white;
+  border-color: white;
+}
+
+ul.bottomNav a{
+	color: #4d4d4f;
+}
+
+/*spacing*/
+.container .banner .banner1 {
+	padding: 20px 20px 0 20px;
+}
+.container .banner .banner2 {
+	padding: 20px 20px 0 20px;
+}
+.media {
+	padding: 20px 0;
+}
+
+.featured .media-body p {
+	margin-bottom: 5px;
+}
+
+.resources ul {
+	list-style: none;
+	padding-left: 0;
+}
+ul.resource > li{
+	padding-top: 20px;
+}
+.articles {
+	margin-bottom: 20px;
+}
+
+.bottom {
+	margin-top: 30px;
+}
+
+.copyright p {
+	margin-bottom: 5px;
+	line-height: 1;
+}
+
+ul.bottomNav {
+	margin-top: 10px;
+}
+.navbar-default .navbar-toggle {
+  border: none;
+}
+
+.navbar-default .navbar-toggle .icon-bar{
+  height: 4px;
+  background-color: #e61e26;
+}
+
+.container .banner  {
+	padding: 0;
+	margin: 0;
+	overflow: hidden;
+}
+ul.bottomNav  {
+	list-style: none;
+	padding-left: 0;
+	text-align: center;
+}
+
+ul.bottomNav  li{
+	display: inline-block;
+	padding: 0 20px;
+	line-height: 1;
+}
+
+.dropdown-menu {
+	position: static;
+	float: none;
+	width: auto;
+	margin-top: 0;
+	background-color: transparent;
+	border: 0;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+.container .banner .banner2{
+	border-top: solid 1px grey;
+}
+
+.container .banner h2 {
+	margin-top: 0;
+	padding: 0;
+	line-height: 0.9; 
+	font-weight: bold;
+	font-size: 48px;
+	text-transform: uppercase;
+}
+.container .banner h2 span{
+	display: block;
+}
+
+.container .banner1 h2 span.grey{
+	color: #a9abae;
+}
+
+.container .banner1 h2 span.red {
+	color: #e61e26;
+}
+
+.container .banner2 h2 span.grey{
+	color: #9d968c;
+}
+
+.container .banner2 h2 span.red {
+	color: #cb3537;
+}
+
+.btn-more {
+	color: #fff;
+	background-color: #cc0b02;
+	border-color: #cc0b02;
+	border-radius: 10px 0;
+}
+
+
+
+@media screen and (min-width: 768px) {
+	.container {
+		max-width: 900px;
+	}
+	.container .banner {
+		border: solid 1px grey;
+	}
+	.social {
+		margin: 10px 0;
+	}
+	.social span {
+		margin-right: 30px;
+	}
+
+	.social span img {
+		margin-right: 5px;
+		width: 20px;
+	}
+	.breadcrumb {
+		padding: 0 10px;
+		margin: 0; 
+		color: white;
+		background-color: red;
+		border-radius: 0;
+	}
+	.breadcrumb a, .breadcrumb>.active {
+		color: white;
+	}
+	.breadcrumb>li+li:before {
+		padding: 0 5px;
+		color: #fff;
+		content: "\003e";
+	}
+}
+@media (max-width: 768px){
+	#logo {
+	  margin-left: 30px;
+	}
+	.navbar-default {
+  		border-color: #000;
+	}
+	.container {
+		padding: 0;
+	}
+
+	.container .banner .banner1 {
+		padding-top: 0;
+	}
+	.featured, .resources, .articles {
+		padding: 0 15px;
+	}
+	#imgIpad {
+		width:  38%;
+	}
+	.container .banner h2 {
+		font-size: 36px;
+	}
+	.media {
+		padding-bottom: 0;
+	}
+	h3.section-head {
+		color: #FFF;
+		border-top: 2px solid red;
+		background-color: #58585a;
+		margin: 10px 0 0 0;
+		padding: 10px;
+	}
+}
+@media (max-width: 639px){
+	#logo {
+	  width: 200px;
+	  height: 50px;
+	}
+	.featured img {
+		width: 35%;
+	}
+	.container .banner h2 {
+		font-size: 20px;
+	}
+	.container .banner .banner2 {
+		display: none;
+	}
+	.featured h4.media-heading {
+		font-size: 14px;
+	}
+	.featured .media-body  {
+		font-size: 11px;
+	}
+
+	.media-body p {
+		max-height: 43px;
+		overflow: hidden;
+		display: -webkit-box;
+	  	-webkit-line-clamp: 3;
+	  	-webkit-box-orient: vertical;  
+	}
+}
